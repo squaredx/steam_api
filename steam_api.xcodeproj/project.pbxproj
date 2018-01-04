@@ -7,16 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E41751F41EDE2752004448F5 /* steam_api.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E41751F31EDE2752004448F5 /* steam_api.hpp */; };
-		E41751F61EDE2752004448F5 /* steam_apiPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E41751F51EDE2752004448F5 /* steam_apiPriv.hpp */; };
+		E414EF121EFED24C00320C68 /* SteamRemoteStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF111EFED24C00320C68 /* SteamRemoteStorage.cpp */; };
+		E414EF141EFED25E00320C68 /* SteamRemoteStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF131EFED25E00320C68 /* SteamRemoteStorage.h */; };
+		E414EF161EFEF61700320C68 /* SteamCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF151EFEF61700320C68 /* SteamCallback.h */; };
+		E414EF181EFEF62C00320C68 /* SteamCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF171EFEF62C00320C68 /* SteamCallback.cpp */; };
+		E414EF1F1F00266F00320C68 /* SteamNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF1E1F00266F00320C68 /* SteamNetworking.h */; };
+		E414EF211F00268000320C68 /* SteamNetworking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF201F00268000320C68 /* SteamNetworking.cpp */; };
+		E414EF251F002ECB00320C68 /* SteamFriends.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF241F002ECB00320C68 /* SteamFriends.cpp */; };
+		E414EF271F002EDE00320C68 /* SteamFriends.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF261F002EDE00320C68 /* SteamFriends.h */; };
+		E414EF2B1F003F6300320C68 /* SteamMatchmaking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF2A1F003F6300320C68 /* SteamMatchmaking.cpp */; };
+		E414EF2D1F003F7400320C68 /* SteamMatchmaking.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF2C1F003F7400320C68 /* SteamMatchmaking.h */; };
+		E414EF2F1F02C04D00320C68 /* SteamGameServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF2E1F02C04D00320C68 /* SteamGameServer.cpp */; };
+		E414EF311F02C06000320C68 /* SteamGameServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF301F02C06000320C68 /* SteamGameServer.h */; };
+		E414EF341F0302B800320C68 /* rd_route.c in Sources */ = {isa = PBXBuildFile; fileRef = E414EF331F0302B800320C68 /* rd_route.c */; };
+		E414EF361F0302D900320C68 /* rd_route.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF351F0302D900320C68 /* rd_route.h */; };
+		E414EF381F03031200320C68 /* MW2Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF371F03031200320C68 /* MW2Main.cpp */; };
+		E414EF3A1F030FD700320C68 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E414EF391F030FD700320C68 /* Utils.cpp */; };
+		E414EF3C1F030FE500320C68 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E414EF3B1F030FE500320C68 /* Utils.h */; };
 		E41751F81EDE2752004448F5 /* steam_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E41751F71EDE2752004448F5 /* steam_api.cpp */; };
+		E472F2F11EFCBF2F00AE6E42 /* SteamUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E472F2F01EFCBF2F00AE6E42 /* SteamUser.h */; };
+		E472F2F31EFCD26D00AE6E42 /* SteamUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E472F2F21EFCD26D00AE6E42 /* SteamUtils.cpp */; };
+		E472F2F51EFCD27C00AE6E42 /* SteamUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E472F2F41EFCD27C00AE6E42 /* SteamUtils.h */; };
+		E472F2FB1EFD6AFC00AE6E42 /* SteamApps.h in Headers */ = {isa = PBXBuildFile; fileRef = E472F2FA1EFD6AFC00AE6E42 /* SteamApps.h */; };
+		E472F2FD1EFD6B0F00AE6E42 /* SteamApps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E472F2FC1EFD6B0F00AE6E42 /* SteamApps.cpp */; };
+		E4FB698D1EFC5CB2006CE588 /* MainInc.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FB698A1EFC5986006CE588 /* MainInc.h */; };
+		E4FB69961EFC5E19006CE588 /* SteamUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4FB69941EFC5E19006CE588 /* SteamUser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E414EF111EFED24C00320C68 /* SteamRemoteStorage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamRemoteStorage.cpp; sourceTree = "<group>"; };
+		E414EF131EFED25E00320C68 /* SteamRemoteStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamRemoteStorage.h; sourceTree = "<group>"; };
+		E414EF151EFEF61700320C68 /* SteamCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamCallback.h; sourceTree = "<group>"; };
+		E414EF171EFEF62C00320C68 /* SteamCallback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamCallback.cpp; sourceTree = "<group>"; };
+		E414EF1B1F00243500320C68 /* SteamAPIInterfaces */ = {isa = PBXFileReference; lastKnownFileType = text; path = SteamAPIInterfaces; sourceTree = "<group>"; };
+		E414EF1E1F00266F00320C68 /* SteamNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamNetworking.h; sourceTree = "<group>"; };
+		E414EF201F00268000320C68 /* SteamNetworking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamNetworking.cpp; sourceTree = "<group>"; };
+		E414EF241F002ECB00320C68 /* SteamFriends.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamFriends.cpp; sourceTree = "<group>"; };
+		E414EF261F002EDE00320C68 /* SteamFriends.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamFriends.h; sourceTree = "<group>"; };
+		E414EF2A1F003F6300320C68 /* SteamMatchmaking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamMatchmaking.cpp; sourceTree = "<group>"; };
+		E414EF2C1F003F7400320C68 /* SteamMatchmaking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamMatchmaking.h; sourceTree = "<group>"; };
+		E414EF2E1F02C04D00320C68 /* SteamGameServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamGameServer.cpp; sourceTree = "<group>"; };
+		E414EF301F02C06000320C68 /* SteamGameServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamGameServer.h; sourceTree = "<group>"; };
+		E414EF331F0302B800320C68 /* rd_route.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rd_route.c; sourceTree = "<group>"; };
+		E414EF351F0302D900320C68 /* rd_route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rd_route.h; sourceTree = "<group>"; };
+		E414EF371F03031200320C68 /* MW2Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MW2Main.cpp; sourceTree = "<group>"; };
+		E414EF391F030FD700320C68 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		E414EF3B1F030FE500320C68 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		E41751F01EDE2752004448F5 /* libsteam_api.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libsteam_api.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41751F31EDE2752004448F5 /* steam_api.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = steam_api.hpp; sourceTree = "<group>"; };
-		E41751F51EDE2752004448F5 /* steam_apiPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = steam_apiPriv.hpp; sourceTree = "<group>"; };
 		E41751F71EDE2752004448F5 /* steam_api.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = steam_api.cpp; sourceTree = "<group>"; };
+		E472F2F01EFCBF2F00AE6E42 /* SteamUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamUser.h; sourceTree = "<group>"; };
+		E472F2F21EFCD26D00AE6E42 /* SteamUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamUtils.cpp; sourceTree = "<group>"; };
+		E472F2F41EFCD27C00AE6E42 /* SteamUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamUtils.h; sourceTree = "<group>"; };
+		E472F2FA1EFD6AFC00AE6E42 /* SteamApps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamApps.h; sourceTree = "<group>"; };
+		E472F2FC1EFD6B0F00AE6E42 /* SteamApps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamApps.cpp; sourceTree = "<group>"; };
+		E4DA9D6C1F2CF5E3002C61A8 /* CSteamID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSteamID.h; sourceTree = "<group>"; };
+		E4DA9D6D1F2CF5E3002C61A8 /* ISteamUserStats005.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamUserStats005.h; sourceTree = "<group>"; };
+		E4DA9D6E1F2CF5E3002C61A8 /* ISteamContentServer002.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamContentServer002.h; sourceTree = "<group>"; };
+		E4DA9D6F1F2CF5E3002C61A8 /* ISteamGameServer009.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamGameServer009.h; sourceTree = "<group>"; };
+		E4DA9D701F2CF5E3002C61A8 /* SteamTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamTypes.h; sourceTree = "<group>"; };
+		E4DA9D711F2CF5E3002C61A8 /* ISteamFriends015.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamFriends015.h; sourceTree = "<group>"; };
+		E4DA9D721F2CF5E3002C61A8 /* EResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EResult.h; sourceTree = "<group>"; };
+		E4DA9D731F2CF5E3002C61A8 /* ISteamRemoteStorage012.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamRemoteStorage012.h; sourceTree = "<group>"; };
+		E4DA9D741F2CF5E3002C61A8 /* ISteamClient008.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamClient008.h; sourceTree = "<group>"; };
+		E4DA9D751F2CF5E3002C61A8 /* ISteamUtils005.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamUtils005.h; sourceTree = "<group>"; };
+		E4DA9D761F2CF5E3002C61A8 /* ISteamUser012.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamUser012.h; sourceTree = "<group>"; };
+		E4DA9D771F2CF5E3002C61A8 /* ESteamNotify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESteamNotify.h; sourceTree = "<group>"; };
+		E4DA9D781F2CF5E3002C61A8 /* RemoteStorageCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteStorageCommon.h; sourceTree = "<group>"; };
+		E4DA9D791F2CF5E3002C61A8 /* FriendsCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCommon.h; sourceTree = "<group>"; };
+		E4DA9D7A1F2CF5E3002C61A8 /* ISteamMatchmaking007.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamMatchmaking007.h; sourceTree = "<group>"; };
+		E4DA9D7B1F2CF5E3002C61A8 /* UserCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCommon.h; sourceTree = "<group>"; };
+		E4DA9D7C1F2CF5E3002C61A8 /* ISteamNetworking005.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamNetworking005.h; sourceTree = "<group>"; };
+		E4DA9D7D1F2CF5E3002C61A8 /* GameServerCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameServerCommon.h; sourceTree = "<group>"; };
+		E4DA9D7E1F2CF5E3002C61A8 /* CCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCallback.h; sourceTree = "<group>"; };
+		E4DA9D7F1F2CF5E3002C61A8 /* ESteamError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESteamError.h; sourceTree = "<group>"; };
+		E4DA9D801F2CF5E3002C61A8 /* CGameID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGameID.h; sourceTree = "<group>"; };
+		E4DA9D811F2CF5E3002C61A8 /* ISteamApps007.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISteamApps007.h; sourceTree = "<group>"; };
+		E4DA9D821F2CF60F002C61A8 /* MatchMakingKeyValuePair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchMakingKeyValuePair.h; sourceTree = "<group>"; };
+		E4DA9D831F2E434E002C61A8 /* ECurrencyCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECurrencyCode.h; sourceTree = "<group>"; };
+		E4DA9D841F2E434E002C61A8 /* EVoiceResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVoiceResult.h; sourceTree = "<group>"; };
+		E4DA9D851F2E4388002C61A8 /* UtilsCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsCommon.h; sourceTree = "<group>"; };
+		E4DA9D861F2E43B5002C61A8 /* AppsCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsCommon.h; sourceTree = "<group>"; };
+		E4DA9D871F2E43E6002C61A8 /* NetworkingCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingCommon.h; sourceTree = "<group>"; };
+		E4DA9D881F2E4548002C61A8 /* MatchmakingCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchmakingCommon.h; sourceTree = "<group>"; };
+		E4DA9D891F2E45B9002C61A8 /* FriendGameInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendGameInfo.h; sourceTree = "<group>"; };
+		E4FB698A1EFC5986006CE588 /* MainInc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainInc.h; sourceTree = "<group>"; };
+		E4FB69941EFC5E19006CE588 /* SteamUser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SteamUser.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +105,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E414EF321F0302A200320C68 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E414EF331F0302B800320C68 /* rd_route.c */,
+				E414EF351F0302D900320C68 /* rd_route.h */,
+				E414EF391F030FD700320C68 /* Utils.cpp */,
+				E414EF3B1F030FE500320C68 /* Utils.h */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		E41751E71EDE2752004448F5 = {
 			isa = PBXGroup;
 			children = (
@@ -49,11 +135,85 @@
 		E41751F21EDE2752004448F5 /* steam_api */ = {
 			isa = PBXGroup;
 			children = (
-				E41751F31EDE2752004448F5 /* steam_api.hpp */,
-				E41751F51EDE2752004448F5 /* steam_apiPriv.hpp */,
+				E414EF321F0302A200320C68 /* Misc */,
+				E4FB69891EFC5921006CE588 /* Mod */,
+				E4FB69881EFC5919006CE588 /* Steam */,
 				E41751F71EDE2752004448F5 /* steam_api.cpp */,
+				E4FB698A1EFC5986006CE588 /* MainInc.h */,
+				E414EF1B1F00243500320C68 /* SteamAPIInterfaces */,
 			);
 			path = steam_api;
+			sourceTree = "<group>";
+		};
+		E4FB69881EFC5919006CE588 /* Steam */ = {
+			isa = PBXGroup;
+			children = (
+				E4FB699F1EFCB8FA006CE588 /* osw */,
+				E4FB69941EFC5E19006CE588 /* SteamUser.cpp */,
+				E472F2F01EFCBF2F00AE6E42 /* SteamUser.h */,
+				E472F2F21EFCD26D00AE6E42 /* SteamUtils.cpp */,
+				E472F2F41EFCD27C00AE6E42 /* SteamUtils.h */,
+				E472F2FC1EFD6B0F00AE6E42 /* SteamApps.cpp */,
+				E472F2FA1EFD6AFC00AE6E42 /* SteamApps.h */,
+				E414EF111EFED24C00320C68 /* SteamRemoteStorage.cpp */,
+				E414EF131EFED25E00320C68 /* SteamRemoteStorage.h */,
+				E414EF171EFEF62C00320C68 /* SteamCallback.cpp */,
+				E414EF151EFEF61700320C68 /* SteamCallback.h */,
+				E414EF201F00268000320C68 /* SteamNetworking.cpp */,
+				E414EF1E1F00266F00320C68 /* SteamNetworking.h */,
+				E414EF241F002ECB00320C68 /* SteamFriends.cpp */,
+				E414EF261F002EDE00320C68 /* SteamFriends.h */,
+				E414EF2A1F003F6300320C68 /* SteamMatchmaking.cpp */,
+				E414EF2C1F003F7400320C68 /* SteamMatchmaking.h */,
+				E414EF2E1F02C04D00320C68 /* SteamGameServer.cpp */,
+				E414EF301F02C06000320C68 /* SteamGameServer.h */,
+			);
+			path = Steam;
+			sourceTree = "<group>";
+		};
+		E4FB69891EFC5921006CE588 /* Mod */ = {
+			isa = PBXGroup;
+			children = (
+				E414EF371F03031200320C68 /* MW2Main.cpp */,
+			);
+			path = Mod;
+			sourceTree = "<group>";
+		};
+		E4FB699F1EFCB8FA006CE588 /* osw */ = {
+			isa = PBXGroup;
+			children = (
+				E4DA9D891F2E45B9002C61A8 /* FriendGameInfo.h */,
+				E4DA9D881F2E4548002C61A8 /* MatchmakingCommon.h */,
+				E4DA9D871F2E43E6002C61A8 /* NetworkingCommon.h */,
+				E4DA9D861F2E43B5002C61A8 /* AppsCommon.h */,
+				E4DA9D851F2E4388002C61A8 /* UtilsCommon.h */,
+				E4DA9D831F2E434E002C61A8 /* ECurrencyCode.h */,
+				E4DA9D841F2E434E002C61A8 /* EVoiceResult.h */,
+				E4DA9D821F2CF60F002C61A8 /* MatchMakingKeyValuePair.h */,
+				E4DA9D7E1F2CF5E3002C61A8 /* CCallback.h */,
+				E4DA9D801F2CF5E3002C61A8 /* CGameID.h */,
+				E4DA9D6C1F2CF5E3002C61A8 /* CSteamID.h */,
+				E4DA9D721F2CF5E3002C61A8 /* EResult.h */,
+				E4DA9D7F1F2CF5E3002C61A8 /* ESteamError.h */,
+				E4DA9D771F2CF5E3002C61A8 /* ESteamNotify.h */,
+				E4DA9D791F2CF5E3002C61A8 /* FriendsCommon.h */,
+				E4DA9D7D1F2CF5E3002C61A8 /* GameServerCommon.h */,
+				E4DA9D811F2CF5E3002C61A8 /* ISteamApps007.h */,
+				E4DA9D741F2CF5E3002C61A8 /* ISteamClient008.h */,
+				E4DA9D6E1F2CF5E3002C61A8 /* ISteamContentServer002.h */,
+				E4DA9D711F2CF5E3002C61A8 /* ISteamFriends015.h */,
+				E4DA9D6F1F2CF5E3002C61A8 /* ISteamGameServer009.h */,
+				E4DA9D7A1F2CF5E3002C61A8 /* ISteamMatchmaking007.h */,
+				E4DA9D7C1F2CF5E3002C61A8 /* ISteamNetworking005.h */,
+				E4DA9D731F2CF5E3002C61A8 /* ISteamRemoteStorage012.h */,
+				E4DA9D761F2CF5E3002C61A8 /* ISteamUser012.h */,
+				E4DA9D6D1F2CF5E3002C61A8 /* ISteamUserStats005.h */,
+				E4DA9D751F2CF5E3002C61A8 /* ISteamUtils005.h */,
+				E4DA9D781F2CF5E3002C61A8 /* RemoteStorageCommon.h */,
+				E4DA9D701F2CF5E3002C61A8 /* SteamTypes.h */,
+				E4DA9D7B1F2CF5E3002C61A8 /* UserCommon.h */,
+			);
+			path = osw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,8 +223,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41751F41EDE2752004448F5 /* steam_api.hpp in Headers */,
-				E41751F61EDE2752004448F5 /* steam_apiPriv.hpp in Headers */,
+				E414EF3C1F030FE500320C68 /* Utils.h in Headers */,
+				E4FB698D1EFC5CB2006CE588 /* MainInc.h in Headers */,
+				E414EF141EFED25E00320C68 /* SteamRemoteStorage.h in Headers */,
+				E414EF161EFEF61700320C68 /* SteamCallback.h in Headers */,
+				E472F2F51EFCD27C00AE6E42 /* SteamUtils.h in Headers */,
+				E472F2F11EFCBF2F00AE6E42 /* SteamUser.h in Headers */,
+				E414EF1F1F00266F00320C68 /* SteamNetworking.h in Headers */,
+				E414EF311F02C06000320C68 /* SteamGameServer.h in Headers */,
+				E414EF361F0302D900320C68 /* rd_route.h in Headers */,
+				E414EF2D1F003F7400320C68 /* SteamMatchmaking.h in Headers */,
+				E472F2FB1EFD6AFC00AE6E42 /* SteamApps.h in Headers */,
+				E414EF271F002EDE00320C68 /* SteamFriends.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E472F2FD1EFD6B0F00AE6E42 /* SteamApps.cpp in Sources */,
+				E414EF181EFEF62C00320C68 /* SteamCallback.cpp in Sources */,
+				E414EF121EFED24C00320C68 /* SteamRemoteStorage.cpp in Sources */,
+				E414EF381F03031200320C68 /* MW2Main.cpp in Sources */,
+				E414EF2F1F02C04D00320C68 /* SteamGameServer.cpp in Sources */,
+				E414EF211F00268000320C68 /* SteamNetworking.cpp in Sources */,
+				E472F2F31EFCD26D00AE6E42 /* SteamUtils.cpp in Sources */,
+				E414EF2B1F003F6300320C68 /* SteamMatchmaking.cpp in Sources */,
 				E41751F81EDE2752004448F5 /* steam_api.cpp in Sources */,
+				E414EF3A1F030FD700320C68 /* Utils.cpp in Sources */,
+				E414EF251F002ECB00320C68 /* SteamFriends.cpp in Sources */,
+				E414EF341F0302B800320C68 /* rd_route.c in Sources */,
+				E4FB69961EFC5E19006CE588 /* SteamUser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -176,7 +359,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -185,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -225,6 +409,7 @@
 		E41751FC1EDE2752004448F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEVELOPMENT_TEAM = 8AH9VXCY5T;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -232,13 +417,18 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_SYMBOL_EDIT = YES;
 			};
 			name = Debug;
 		};
 		E41751FD1EDE2752004448F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEVELOPMENT_TEAM = 8AH9VXCY5T;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -246,7 +436,10 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_SYMBOL_EDIT = YES;
 			};
 			name = Release;
 		};
@@ -269,6 +462,7 @@
 				E41751FD1EDE2752004448F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
